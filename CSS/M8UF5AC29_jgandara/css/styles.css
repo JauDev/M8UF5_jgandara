@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#imatge {
+    width: 60%;
+    height: 575px;
+    margin: 0px 0px 15px 0px;
+}
+#body {
+    width: 60%;
+    height: 575px;
+    border-width: 2px 2px 2px 2px;
+    border-color: grey;
+    border-style: solid;
+    background-color: white;
+}
+div {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#titol {
+    font-weight: bolder;
+}
+.mono1 {
+    height: 6%;
+    margin: 2px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.mono2 {
+    border-width: 2px 2px 2px 2px;
+    border-color: grey;
+    border-style: solid;
+}
+.mono3 {
+    margin: 2px;
+    height: 5%;
+    display: grid;
+    grid-template-columns: 8% repeat(5, 1fr);
+    gap: 2px;
+}
+.box1 {
+    margin: 2px;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 8% repeat(5, 1fr);
+    gap: 2px;
+}
+.box2 {
+    border-width: 2px 2px 2px 2px;
+    border-color: grey;
+    border-style: solid;
+}
+.horari {
+    margin: 1px;
+    height: 33%;
+    border-width: 2px 2px 2px 2px;
+    border-color: grey;
+    border-style: solid;
+}
+.subhorari {
+    height: 40%;
+}
+.caixa1 {
+    height: 32%;
+    margin: 1px;
+    border-width: 2px 2px 2px 2px;
+    border-color: grey;
+    border-style: solid;
+}
+.caixa2 {
+    height: 65%;
+    margin: 1px;
+    border-width: 2px 2px 2px 2px;
+    border-color: grey;
+    border-style: solid;
+}
+.caixa3 {
+    border-width: 2px 2px 2px 2px;
+    border-color: grey;
+    border-style: solid;
+}

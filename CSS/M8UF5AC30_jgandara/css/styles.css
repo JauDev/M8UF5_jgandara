@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.encapçalament {
+    background-color: rgb(38, 192, 0);
+}
+.encapçalament nav {
+    display: flex;
+    justify-content: center;
+}
+.encapçalament nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 12px 40px;
+    display: block;
+}
+a:hover {
+    color: yellow;
+}
+.encapçalament nav ul li ul {
+    display: flex;
+    flex-direction: column;
+}
+.encapçalament nav ul li ul {
+    position: absolute;
+    background: rgb(38, 192, 0);
+    display: none;
+}
+.encapçalament nav ul li ul li {
+    width: 250px;
+}
+.encapçalament nav ul li:hover > ul{
+    display: block;
+}

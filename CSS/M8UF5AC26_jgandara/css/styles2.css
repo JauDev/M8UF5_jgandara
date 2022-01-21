@@ -1,0 +1,214 @@
+body {
+    background-color:white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#body {
+    width: 555px;
+    height: 355px;
+    display: flex;
+    flex-direction: row;
+}
+/*columna1*/
+#gris1 {
+    background-color: rgb(252, 236, 236);
+    width: 55px;
+    height: 75px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#gris2 {
+    background-color: rgb(252, 236, 236);
+    width: 55px;
+    height: 200px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#gris3 {
+    background-color:rgb(252, 236, 236);
+    width: 55px;
+    height: 30px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#gris4 {
+    background-color: rgb(252, 236, 236);
+    width: 55px;
+    height: 35px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+/* column2 */
+ #groc1 {
+    background-color: yellow;
+    width: 120px;
+    height: 355px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+  /* column3 */
+  #blau1 {
+    background-color: blue;
+    width: 120px;
+    height: 125px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+  #groc2 {
+    background-color: yellow;
+    width: 120px;
+    height: 225px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ /* column4 */
+#columna4 {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+ }
+#vermell1 {
+    background-color: red;
+    width: 120px;
+    height: 225px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+/*caixa1*/
+#caixa1 {
+    display: flex;
+    flex-direction: row;
+}
+#vermell2 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#vermell3 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+/*caixa2*/
+#caixa2 {
+    display: flex;
+    flex-direction: row;
+}
+#blau2 {
+    background-color: blue;
+    width: 57.5px;
+    height: 85px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#vermell4 {
+    background-color: red;
+    width: 57.5px;
+    height: 85px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*columna5*/
+ #colum5 {
+    display: flex;
+    flex-direction: column;
+ }
+ /*caixa3*/
+ #caixa3 {
+    display: flex;
+    flex-direction: row;
+ }
+ #groc3 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 75px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ /*caixa4*/
+ #caixa4 {
+    display: flex;
+    flex-direction: column;
+ }
+ #groc4 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ #vermell5 {
+    background-color: red;
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*caixa5*/
+ #caixa5 {
+    display: flex;
+    flex-direction: row;
+ }
+ #gris5 {
+    background-color: rgb(252, 236, 236);
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 5px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+#gris6 {
+    background-color: rgb(252, 236, 236);
+    width: 57.5px;
+    height: 35px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*vermelldelmig*/
+ #vermell6 {
+    background-color: red;
+    width: 120px;
+    height: 105px;
+    border-width: 0px 0px 5px 0px;
+    border-color: black;
+    border-style: solid;
+}
+ /*caixa6*/
+ #caixa6 {
+    display: flex;
+    flex-direction: row;
+ }
+ #groc5 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 125px;
+    border-width: 0px 5px 0px 0px;
+    border-color: black;
+    border-style: solid;
+ }
+ #groc6 {
+    background-color: yellow;
+    width: 57.5px;
+    height: 125px;
+ }

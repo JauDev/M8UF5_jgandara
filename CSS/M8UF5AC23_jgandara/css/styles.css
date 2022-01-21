@@ -1,0 +1,87 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 112%;
+    background-image:url("../img/IMAGEN.png");
+}
+table {
+    width: 70%;
+}
+.p1 {
+    background-color: yellow;
+}
+.p2 {
+    background-color: #FFEB3B;
+}
+.p3 {
+    background-color: #FDD835;
+}
+.p4 {
+    background-color: #FBC02D;
+}
+.p5 {
+    background-color: #F9A825;
+}
+.p6 {
+    background-color: #F57F17;
+}
+.p7 {
+    background-color: #ff7200;
+}
+.p8 {
+    background-color: #ff3f00;
+}
+.p9 {
+    background-color: #ff2301;
+}
+.p10 {
+    background-color: #FF0000;
+}
+.p1:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p2:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p3:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p4:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p5:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p6:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p7:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p8:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p9:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p10:hover {
+    color: #1717FF;
+    cursor: pointer;
+}
+.p1p {
+    text-decoration: underline;
+}
+.p2p {
+    text-decoration: overline;
+}
+.p3p {
+    font-weight: bold;
+}

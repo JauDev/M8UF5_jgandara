@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    
+}
+#body {
+    color:white;
+    width: 400px;
+    height: 280px;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+}
+
+#caixa1 {
+    background-color: red;
+    width: 200px;
+    height: 70px;
+
+}
+#caixa2 {
+    background-color: blue;
+    width: 200px;
+    height: 70px;
+}
+#caixa3 {
+    background-color: yellow;
+    height: 140px;
+    width: 100px;
+    float: left;
+}
+#caixa4 {
+    background-color: indigo;
+    height: 70px;
+    width: 100px;
+}
+#caixa5 {
+    background-color: darkblue;
+    height: 70px;
+    width: 200px;
+}
+#caixa6 {
+    background-color: magenta;
+    height: 70px;
+    width: 100px;
+}
+#caixa7 {
+    background-color: yellow;
+    height: 70px;
+    width: 100px;
+}
+#caixa8 {
+    background-color: white;
+    height: 70px;
+    width: 100px;
+}
+#caixa9 {
+    background-color: mediumslateblue;
+    height: 70px;
+    width: 100px;
+}
+#caixa10 {
+    background-color: rgba(165, 81, 42, 0.829);
+    height: 70px;
+    width: 100px;
+}
+#caixa11 {
+    background-color: red;
+    height: 70px;
+    width: 100px;
+}
+#caixa12 {
+    background-color: maroon;
+    height: 70px;
+    width: 100px;
+}
+#row {
+    display: flex;
+    flex-direction: row;
+}
+#row2 {
+    display: flex;
+    flex-direction: row;
+}
+#row3 {
+    display: flex;
+    flex-direction: row;
+}
+#row4 {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+#right {
+    float: right;
+}

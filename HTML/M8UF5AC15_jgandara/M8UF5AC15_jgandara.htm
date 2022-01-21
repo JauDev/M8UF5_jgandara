@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <html lang="cat">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulari d’enviament</title>
+            <script type="text/javascript"> 
+                function validar(){ 
+                    var psswd=document.getElementById("psswd").value; 
+                    var confpsswd=document.getElementById("confpsswd").value; 
+                    if(psswd==confpsswd){ 
+                    return true; 
+                    } 
+                    else{
+
+                        alert("No coincideix"); 
+                        return false; 
+                        } 
+                } 
+                </script>
+        </head>
+        <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <table align="center" width="500" cellspacing="0">
+                <form action="jaumegandara@gmail.com">
+                    <tr bgcolor="306090">
+                        <td><h2 style="color: #EFEFEF;";>Enviar missatge</h2></td>
+                        <td><img src="img/gb_reload_s.gif" alt="*gb_reload_s*"></td>
+                    </tr>
+                    <!--colors = https://encycolorpedia.es/9b9b9b-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2">&#160</td>
+                    </tr>
+                    
+                    <!--Usuari-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label for="usuari">Usuari:</label><input type="text" size="45" id="usuari" maxlength="8"></font></td>
+                    </tr>
+                    <!--Contrasenya-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label for="confpsswd">Contrasenya:</label><input type="password" size="45" id="confpsswd" onsubmit="return validar() ;"></font></td>
+                    </tr>
+                    <!--Nom-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label for="nom">Nom:</label><input type="text" size="45" id="nom" name="nom" maxlength="50"></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"></td>
+                    </tr>
+                    <!--E-Mail-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label for="e-mail">E-Mail:</label><input type="text" size="45" id="e-mail" name="e-mail"></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"></td>
+                    </tr>
+                    <!--Arxiu-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label for="arxiu">Arxiu:</label><input type="text" size="45" id="arxiu" name="arxiu"></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><input type="file" id="arxiu" name="arxiu"></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"></td>
+                    </tr>
+                    <!--Imatge-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label for="imatge">Imatge:</label></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><input type="text" size="45" id="imatge" name="imatge"></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><input type="file" id="imatge" name="imatge"></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2" align="center"><font size="1">El tamany de l'arxiu i la imatge no pot exedir els 4 KBytes</font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"></td>
+                    </tr>
+                    <!--Jocs-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label type="checkbox" for="jocs">Quins jocs t'interessen?</label></font></td>
+                    </tr>
+                    <!--Jocs A-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><input type="checkbox" checked="on" id="jocs" name="ark">ARK</font></td>
+                    </tr>
+                    <!--Jocs B-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><input type="checkbox" checked="on" id="jocs" name="dbzkakarot">DBZ: Kakarot</font></td>
+                    </tr>
+                    <!--Jocs C-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><input type="checkbox" checked="on" id="jocs" name="conanexiles">Conan Exiles</font></td>
+                    </tr>
+                    <!--Jocs D-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><input type="checkbox" checked="on" id="jocs" name="fortnite">Fortnite</font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"></td>
+                    </tr>
+                    <!--RRSN-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"><font size="4"><label type="text">Requereixo resposta:</label><input type="checkbox" checked="on" id="si" name="si">Si<input type="checkbox" id="no" name="no">No</font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2">&#160</td>
+                    </tr>
+                    <!--Missatge-->
+                    <tr bgcolor="EFEFEF" align="center">
+                        <td colspan="2"><font size="4"><label for="missatge">Missatge</label></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF" align="center"><td colspan="2"><font size="4"><textarea name="missatge" id="missatge" cols="45" rows="5"></textarea></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2">&#160</td>
+                    </tr>
+                    <!--Env/Bor-->
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2" align="center"><font size="3"><input type="submit" value="Enviar">&#160<input type="reset" value="Borrar"></font></td>
+                    </tr>
+                    <tr bgcolor="EFEFEF">
+                        <td colspan="2">&#160</td>
+                    </tr>
+                </form>
+            </table>
+        </body>
+    </html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <title>CSS-Selectors</title>
+            <style type="text/css">
+                #titol{
+                    color: teal
+                }
+                strong{
+                    color: red
+                }
+                .destacat{
+                    color: orange
+                }
+                #subtitol{
+                    color: blue
+                }
+                a{
+                    color: red
+                }
+                em{
+                    color: blue
+                }
+                span.especial{
+                    color: purple
+                }
+                caption{
+                    color: blue
+                }
+                table {
+                    border-collapse: collapse;
+                    align-items: center;
+                    text-align: center;
+                }
+                th {
+                    color: red;
+                    height: 25px;
+                }
+                th.especial{
+                    color: orange;
+                    width: 130px;
+                }
+                
+                td strong{
+                    color: orange
+                }
+                td {
+                    color: green;
+                }
+                #adicional {
+                    color: olive
+                }
+                #especial{
+                    color: fuchsia;
+                }
+            </style>
+        </head>
+        <body>
+            <h1 id="titol">Lorem ipsum dolor sit amet</h1>
+            <p>Consectetur adipiscing elit. Phasellus sollicitudin mi at justo porta porttitor. <strong>Etiam mauris mi</strong>, tincidunt ac arcu ac, mattis lacinia dolor. Quisque venenatis nisi nisi, et malesuada sapien dapibus vitae. <span  class="destacat">Proin sed lacus vel elit fringilla</span> dapibus eget a tortor.</p>
+            <h2 id="subtitol">Praesent aliquet diam non lacinia vehicula</h2>
+            <p>Vivamus auctor auctor maximus. Curabitur nibh risus.  <a  href="#">Aenean turpis metus, <em>aliquam non</em>, tristique in</a>, pretium varius, sapien. Proin vitae nisi. Suspendisse <span class="especial">porttitor purus ac elit</span>. Praesent sagittis lacus nisi, vestibulum pretium lectus consectetur eu.</p>
+            <table summary="Descripció de la taula i el seu contingut" border="1">
+                <caption>Titol de la taula</caption>
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col" class="especial">Titol columna 1</th>
+                        <th scope="col" class="especial">Titol columna 2</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Titol columna 1</th>
+                        <th scope="col">Titol columna 2</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="especial">Titol fila 1</th>
+                        <td>Donec purus ipsum</td>
+                        <td>Curabitur <em>blandit</em></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Titol fila 2</th>
+                        <td>Donec <strong>purus ipsum</strong></td>
+                        <td>Curabitur blandit</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="adicional">
+                <p>Sed imperdiet mi sit amet arcu egestas vehicula, <span>placerat ac, lorem</span>. Donec ante nulla, tempor ut turpis quis, consectetur porta lorem, ut mollis lectus tortor in orci. Pellentesque nec augue.</p>
+                <p>Proin tristique ac mauris sit amet scelerisque hendrerit nulla. <span id="especial">Pellentesque dignissim convallis</span>, venenatis in, posuere ante fermentum in. Etiam sagittis, tellus in ultrices accumsan, diam nisi feugiat ante, eu congue magna mi non nisl.</p>
+                <p>Mauris lacinia cursus urna. <a href="#">Donec arcu pede, pretium vitae</a>, rutrum aliquet, tincidunt blandit, pede.Maecenas venenatis ornare dolor, mattis ultrices lacus lobortis at. Utullamcorper nisi quis mi.</p>
+            </div>
+        </body>
+    </html>

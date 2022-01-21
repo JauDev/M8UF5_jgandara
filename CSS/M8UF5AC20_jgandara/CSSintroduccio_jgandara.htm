@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <title>CSS-Introduccio</title>
+            <style type="text/css">
+                /* Tots els elements de la pàgina */
+                body { 
+                    font: 1em/1.3 Arial, Helvetica, sans-serif; 
+                }
+                /* Tots els pàrrafs de la pàgina */
+                p { 
+                    color: #555; 
+                }
+                /* Tots els pàrrafs contenidors a #primer */
+                #primer { 
+                    color: #336699; 
+                }
+                /* Tots els enllaços de la pàgina */
+                a { 
+                    color: #CC3300; 
+                 }
+                /* Els elements "em" continguts a #primer */
+                #primer em { 
+                    background: #FFFFCC; 
+                    padding: .1em; 
+                }
+                /* Tots els elements "em" de classe "diferent" a tota la pàgina */
+                em.diferent { 
+                    background: #FFCC99; 
+                    border: 1px solid #FF9900; 
+                    padding: .1em; 
+                }
+                /* Elements "span" continguts a .normal */
+                .normal, span { 
+                    font-weight: bold; 
+                }
+            </style>
+        </head>
+        <body>
+            <div id="primer">
+                <p>Lorem ipsum dolor sit amet, <a href="#">consectetuer adipiscing elit</a>. Cras non iaculis quam. Quisque laoreet sapien et est sollicitudin, non pulvinar diam faucibus. Aliquam erat volutpat. Ut vulputate at orci in pellentesque.
+                <em>Sed et laoreet velit</em>. Nullam dignissim orci sed enim rhoncus lacinia.</p>
+            </div>
+            <div class="normal">
+                <p>Proin ut odio eu lectus hendrerit consequat et a ante.<span><a href="#">In eu commodo enim</a>. Nulla convallis ut eros quis imperdiet.</span> Curabitur at porttitor nisi, eu maximus ligula. Donec suscipit enim purus, vel tempor felis tempor a. <a href="#">Class aptent</a>, taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In quis ullamcorper risus.</p>
+                <p>Maecenas eu feugiat ex. Vivamus <em class="diferent">feugiat</em> mi massa, in ultricies arcu placerat sit amet. In vel ex tempus, ornare quam in, placerat turpis. Aliquam at maximus arcu, a facilisis dolor. Maecenas quis dapibus velit, a accumsan ipsum.</p>
+                <p>Ut eget ullamcorper leo, a convallis augue. Nam elit nisl,<em class="diferent">hendrerit in auctor vitae</em>, pulvinar sit amet libero. Nunc felis augue, <a href="#">dictum eu dolor quis, placerat faucibus lorem</a>. Proin congue mauris sit amet nibh euismod, id auctor mi ultricies.</p>
+            </div>
+        </body>
+    </html>

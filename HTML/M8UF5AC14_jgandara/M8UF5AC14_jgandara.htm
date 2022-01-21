@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="cat">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulari 1 d'enregistrament</title>
+        </head>
+        <body>
+            <h1>Formulari bàsic de registre</h1>
+            <form method="get" action="">
+                <p><label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" maxlength="50"></p>
+                <p><label for="cognom">Cognom:</label>
+                <input type="text" id="cognom" name="cognom" maxlength="50"></p>
+                <p><label type="sexe">Sexe:</label></p>
+                <p><input type="radio" id="sexe" name="sexe">Home
+                <input type="radio" id="sexe" name="sexe">Dona</p>
+                <p><label for="correu">Correu electrònic:</label>
+                <input type="text" id="correu" name="correu"></p>
+                <p><label for="poblacio">Població:</label>
+                <select>
+                    <option value="arbucies">Arbúcies</option>
+                    <option value="badalona">Badalona</option>
+                    <option value="barcelona">Barcelona</option>
+                    <option value="girona">Girona</option>
+                    <option value="vilassardemar">Vilassar de Mar</option>
+                </select></p>
+                <p><label for="descripciopoblacio">Descripció:</label></p>
+                <p><textarea name="descripciopoblacio" id="descripciopoblacio" cols="50" rows="3"></textarea></p>
+                <p><input type="checkbox" checked="on"> Vull rebre informació sobre novetats i ofertes.</p>
+                <p><input type="checkbox"> Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD.</p>
+                <input type="submit" value="Enviar">
+            </form>
+        </body>
+    </html>

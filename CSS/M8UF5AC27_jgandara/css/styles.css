@@ -1,0 +1,15 @@
+/*16px = 1em*/
+p {
+  margin: 0em 0em 4em 0em;
+}
+footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    width: 100%;
+    background-color: darkcyan;
+    position: fixed;
+    z-index: 1000;
+    top: 94%;
+  }

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header nav {
+    margin: 0% 38% 0% 38%;
+    width: 24%;
+}
+
+#jo {
+    padding: 12px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.titol2 {
+    padding: 2em 0em 2em 0em;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: rgb(48, 75, 156);
+}
+
+.fotos2 {
+    margin: 0% 10% 0% 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.fotos3 {
+    margin: 0% 21% 2em 23%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.imatge1 {
+    margin: 0% 6% 0% 6%;
+}
+
+.imatge3 {
+    margin: 0% 20% 0% 20%;
+}
+
+.pimatge {
+    margin: 5px 0px 5px 0px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#neo {
+    width: 80%;
+}
+
+#github {
+    width: 60%;
+}
+
+.contacte {
+    font-size: 15px;
+}
+
+#projectes {
+    margin: 0% 7% 0% 7%;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.transparent:hover {
+    opacity: .7;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+footer {
+    margin: 2em 14% 2em 12%;
+    width: 76%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 38% 26% 38%
+}
