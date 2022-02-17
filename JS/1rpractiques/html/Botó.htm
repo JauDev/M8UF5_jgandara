@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="cat">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <button id="b1" onclick="Cb1()">Butó 1</button>
+            <button id="b2" onclick="Cb2()">Butó 2</button>
+            <button id="b3" onclick="Cb3()">Borrar</button>
+            <script>
+                function Cb1() {
+                    p1.innerHTML = "Has apretat el Botó 1";
+                }
+
+                function Cb2() {
+                    p2.innerHTML = "Has apretat el Botó 2";
+                }
+                
+                function Cb3() {
+                    //Deixar el contingut sense res
+
+                    p1.innerHTML = "";
+                    p2.innerHTML = "";
+
+                    //Borrar tot
+
+                    //p1.remove();
+                    //p2.remove();
+                }
+            </script>
+        </body>
+    </html>

@@ -1,0 +1,52 @@
+body {
+    background-image: url(../img/imatgeaberration.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.altreimg {
+    width: 50px;
+    height: 50px;
+}
+
+#fletxa {
+    margin: 40px 0px 40px 0px;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+}
+
+.minfotos {
+    margin: 0px 10px 0px 10px;
+}
+
+#contingut {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-weight:900 ;
+    font-style: italic;
+}

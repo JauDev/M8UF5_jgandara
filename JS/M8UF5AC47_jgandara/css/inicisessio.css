@@ -1,0 +1,39 @@
+body {
+    background-image: url(../img/imatgeark.jpg);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    margin-top: 10%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+input, label, select, option {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+}
+
+.buto {
+    margin: 10px 0px 10px 0px;
+    height: 50px;
+}
+
+.buto:hover {
+    cursor: pointer;
+    opacity: 90%;
+}
+
+#nom {
+    margin: 10px 0px 10px 0px;
+}

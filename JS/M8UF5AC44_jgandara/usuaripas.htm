@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+    <html lang="ca">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Usuaripas</title>
+            <link rel="stylesheet" type="text/css" href="css/normalize.css">
+            <link rel="stylesheet" type="text/css" href="css/usuaripas.css">
+        </head>
+        <body>
+            <form>
+                <div class="form">
+                    <label for="user">Usuari:</label>
+                    <input type="text" id="usuari" name="user">
+                </div>
+                <div class="form">
+                    <label for="psswd">Contrasenya:</label>
+                    <input type="password" id="psswd">
+                </div>
+                <div class="form">
+                    <label for="confpsswd">Repeteix la contrasenya:</label>
+                    <input type="password" id="confpsswd">
+                </div>
+                <div id="comp">
+                    <input type="submit" value="Comprovar" onclick="comprovar()">
+                </div>
+            </form>
+            <script type="text/javascript" src="js/usuaripas.js"></script>
+        </body>
+    </html>

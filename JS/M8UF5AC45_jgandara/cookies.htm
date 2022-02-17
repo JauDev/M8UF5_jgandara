@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+    <html lang="ca">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Cookies</title>
+            <link rel="stylesheet" type="text/css" href="css/normalize.css">
+            <link rel="stylesheet" type="text/css" href="css/cookies.css">
+        </head>
+        <body>
+            <form>
+                <div class="form2">
+                    <div class="form"><label for="user">Usuari:</label></div>
+                    <div class="form"><input type="text" id="usuari" name="user"></div>
+                </div>
+                <div class="form2">
+                    <div class="form"><label for="psswd">Contrasenya:</label></div>
+                    <div class="form"><input type="password" id="psswd" name="psswd"></div>
+                </div>
+                <div class="form2">
+                    <div class="form"><label for="confpsswd">Repeteix la contrasenya:</label></div>
+                    <div class="form"><input type="password" id="confpsswd" name="confpsswd"></div>
+                </div>
+                <div class="form2">
+                    <input type="submit" value="Comprovar" onclick="comprovar()">
+                </div>
+                <div class="form2">
+                    <div class="form"><label for="name">Nom:</label></div>
+                    <div class="form"><input type="text" id="nom" name="name"></div>
+                </div>
+                <div class="form2">
+                    <div class="form"><label for="surname">Cognom:</label></div>
+                    <div class="form"><input type="text" id="cognom" name="surname"></div>
+                </div>
+                <div class="form2">
+                    <input type="button" value="Guardar dades" onclick="guardar()">
+                </div>
+                <div class="form2">
+                    <input type="button" value="Recuperar dades" onclick="recuperar()">
+                </div>
+                <div class="form2">
+                    <input type="button" value="Esborrar dades" onclick="esborrar()">
+                </div>
+            </form>
+            <script type="text/javascript" src="js/cookies.js"></script>
+        </body>
+    </html>
